@@ -144,6 +144,8 @@ class ScatterPlot extends Component {
                                 height={height}
                                 xScale={enableGridX ? xScale : null}
                                 yScale={enableGridY ? yScale : null}
+                                xValues={4}
+                                yValues={4}
                             />
                         ),
                         axes: (
